@@ -104,3 +104,57 @@ header .hero{
     border: 1px solid white;
 
 }
+.middle{
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center; 
+    /* background-color: #627382; */
+}
+.middle-text{
+padding-top: 50px;
+}
+
+.middle-text h2{
+    font-size: 48px;
+    font-weight:bold ;
+    margin-bottom: 16px;
+}
+.middle-text p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+.middle-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0 120px;
+   
+}
+.card{
+     padding:24px;
+     height: 300px;
+     width: 322px;
+     border-radius: 4px;
+     box-shadow: 0 0 8px 0 #0000002c;
+     text-align: center;
+
+}
+.card h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931; margin-bottom: 16px;
+}
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 24px;
+}
+.card img{
+    border-radius: 100px;
+    background-color: #F95555;
+    padding: 14px;
+    margin-bottom: 16px;
+}
