@@ -36,6 +36,7 @@ border: none;
 border-radius: 4px;
 margin-right: 50px;
 margin-bottom: 24px;
+margin-top: 15px;
 
 }
 header .hero{
@@ -157,4 +158,47 @@ padding-top: 50px;
     background-color: #F95555;
     padding: 14px;
     margin-bottom: 16px;
+}
+.solution{
+    display: flex;
+    max-width: 1360px;
+    /* text-align: center; */
+    margin: 0 auto;
+    padding: 120px;
+    gap: 60px;
+    align-items: center;
+}
+.solution-content{
+    margin: 120px 0px 120px 0px;
+    width: 700px;
+    
+    text-align: left;
+}
+.solution-content h6{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 24px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+.solution-content h4{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+margin-bottom: 16px;
+}
+.solution-content p{
+    color: #627382;
+     font-size: 16px;
+     line-height: 24px;
+     margin-bottom: 40px;
+     font-weight: 400px;
+}
+.solution-content ul {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #001931;
+    list-style-image: url(images/assets/CheckCircle.png);
+padding-left: 20px;
 }
