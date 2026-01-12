@@ -260,6 +260,9 @@ footer{
     line-height: 28px;
     margin-bottom: 16px;
 }
+.footer-text a{
+    margin-right: 5px;
+}
 .footer-container hr{
     margin-bottom: 30px;
     color: #E5E7EB;
