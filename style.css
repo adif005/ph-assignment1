@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
 header{
     margin: 0 auto;
 }
@@ -132,6 +137,7 @@ padding-top: 50px;
     gap: 24px;
     margin: 0 120px;
    
+   
 }
 .card{
      padding:24px;
@@ -201,4 +207,68 @@ margin-bottom: 16px;
     color: #001931;
     list-style-image: url(images/assets/CheckCircle.png);
 padding-left: 20px;
+}
+.last{
+    text-align: center;
+   
+     margin:0 120px 120px 120px;
+}
+.last-content{
+     background-color: #F7F6F2;
+     margin: 0 auto;
+     max-width: 1360px;
+     padding: 80px 40px ;
+}
+
+
+.last h3 {
+    font-size:  40px;
+ font-weight: bold;
+ color: #001931;
+ margin-bottom: 16px;
+
+
+   
+}
+.last p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #627382;
+    margin-bottom: 16px;
+}
+footer{
+    background-color: #001931;
+    
+
+}
+.footer-container{
+    max-width: 1360px;
+     margin: 0 auto;
+    padding: 120px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      max-width: 1360px;
+      margin-bottom: 80px;
+}
+.footer-text{
+    font-size: 20px;
+    font-weight: 500px;
+    color: #FFFFFF;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.footer-container hr{
+    margin-bottom: 30px;
+    color: #E5E7EB;
+}
+.copy{
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400px;
+
 }
